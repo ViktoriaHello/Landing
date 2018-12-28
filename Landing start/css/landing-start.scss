@@ -1,0 +1,61 @@
+@import 'decoration';
+
+
+ body {
+     width: 100%;
+     max-width: 1920px;
+     margin: 0;
+   
+ }
+
+ .background {
+     position: absolute;
+  }
+     
+ 
+
+.navigation {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto; 
+    position: relative;   
+    z-index: 1;
+    padding-top: 40px;
+
+       .logo {
+         font-family: $font-logo;
+         font-size: 34px;
+         font-weight: 600;
+         text-transform: uppercase;
+         color: $color-logo;
+         }
+
+            .navigation-logo {
+                font-family: $font-logo;
+                font-size: 20px;
+                font-weight: 400;
+                display: flex;
+                justify-content: space-between;
+                
+                .header-link {
+                    color: $color-logo;
+                    &:hover { text-decoration: none; }
+                }
+            
+               
+            }
+
+            .try-for-free {
+                font-family: Montserrat;
+                font-size: 26px;
+                color: $color-button;
+                border: 1px solid $color-logo;
+                width: 242px;
+                height: 76px;
+                border-radius: 38px;
+                background-color: $color-logo;
+            }
+}
+
+               
+        
